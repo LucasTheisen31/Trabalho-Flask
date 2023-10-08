@@ -1,7 +1,13 @@
 # Trabalho-Flask
 
-Instruções de inicialização:
+* Instruções de inicialização:
 
-Instalar as dependências do arquivo requirements.txt
+  * Ativando o ambiente virtual:
 
-pip3 install -r requirements.txt
+    venv\Scripts\activate
+
+  * Instalar as dependências do arquivo requirements.txt:
+
+    pip3 install -r requirements.txt
+
+  * Ir até o arquivo run.py e executar o projeto ou digitar no console "flask run"
