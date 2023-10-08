@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %} Editar {% endblock title %}
+
+{% block content %}
+
+<div class="row mt-5">
+    <div class="col-md-6 offset-md-3">
+        <h2>Editar</h2>
+        <form method="POST" class="mt-3">
+            {{ form.hidden_tag() }}
+            <div class="input-group mb-3">
+                {{ form.task_description(class="form-control rounded-right", placeholder="Adicionar nova tarefa") }}
+                <div class="input-group-append">
+                    {{ form.submit(class="btn btn-primary ml-2 rounded-left") }}
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock content %}
